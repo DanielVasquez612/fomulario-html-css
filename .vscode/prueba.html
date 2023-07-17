@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilosprueba.css" />
+  </head>
+  <body>
+    <div class="window">
+      <form class="formulario">
+        <input type="checkbox" id="form-toggle" class="form-toggle" />
+        <label class="card-header collapsed" for="form-toggle"
+          ><span>&#9662;</span> Consultas</label
+        >
+        <fieldset id="form-content">
+          <div class="form-row">
+            <div class="input-container">
+              <label for="fecha">Fecha</label>
+              <input id="fecha" type="date" />
+            </div>
+
+            <div class="input-container">
+              <label for="fecha">Fecha</label>
+              <input id="fecha" type="date" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-container">
+                <label for="tipo">tipo de orden</label>
+                <select></select>
+            </div>
+            <div class="input-container">
+                <label for="estado">estado de la orden</label>
+                <select></select>
+            </div>
+            <div class="input-container">
+                <label for="codigo">codigo autorizacion</label>
+                <input type="text" id="codigo" name="codigo" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="input-container">
+              <label for="codigoSicom">codigo sicom comprador</label>
+              <input type="text" id="codigoSicom" name="codigoSicom" />
+            </div>
+
+            <div class="input-container">
+              <label for="codigo">codigo SICOM proveedor</label>
+              <input type="text" id="codigo" name="codigo" />
+            </div>
+
+            <div class="input-container">
+              <label for="codigoSicom">codigo SICOM planta proveedor</label>
+              <input type="text" id="codigoSicom" name="codigoSicom" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-container">
+              <label for="codigo">codigo SICOM planta comprador</label>
+              <input type="text" id="codigo" name="codigo" />
+            </div>
+
+            <div class="input-container">
+              <label for="producto">producto</label>
+              <select></select>
+            </div>
+
+            <div class="input-container">
+              <label for="departamento">departamento</label>
+              <select></select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-container">
+              <label for="municipio">municipio</label>
+              <select></select>
+            </div>
+
+            <div class="input-container">
+              <label for="razon">razon social del comprador</label>
+              <input type="text" id="razon" name="razon" />
+            </div>
+
+            <div class="input-container">
+              <label for="razonSoci">razon social del proveedor</label>
+              <input type="text" id="razonSoci" name="razonSoci" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-container">
+              <label for="nombrePlan">nombre planta de abastecimiento</label>
+              <input type="text" id="nombrePlan" name="nombrePlan" />
+            </div>
+
+            <div class="input-container">
+              <label for="nombrePlaRec">nombre planta de recibo </label>
+              <input type="text" id="nombrePlaRec" name="nombrePlaRec" />
+            </div>
+
+            <div class="input-container">
+              <label for="nombrePlaAbas">nombre planta de abastecimiento</label>
+              <input type="text" id="nombrePlaAbas" name="nombrePlaAbas" />
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="input-container">
+              <label for="tipo">tipo de transporte</label>
+              <select></select>
+            </div>
+
+            <div class="input-container">
+              <label for="placa">placa</label>
+              <input type="text" id="placa" name="placa" />
+            </div>
+          </div>
+        </fieldset>
+        <button type="button" class="btn btn-danger" id="btnlimpiar">
+          Limpiar Campos
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
